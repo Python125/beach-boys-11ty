@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="modal1" class="modal"></div>
+
+    <div>
+      <img
+        src="https://m.media-amazon.com/images/M/MV5BNWZhYzk5NTQtZmViYS00ZjZlLTk0M2MtNWI4NGY4MGJkNmZmXkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_.jpg"
+        width="300"
+        height="440"
+        data-modal-target="#modal1"
+      />
+      <p>Animal Crackers (1930)</p>
+      <div class="modal" id="modal1">
+        <div class="modal-header">
+          <div class="title" class="center">Animal Crackers</div>
+          <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+          <iframe
+            src="https://www.youtube.com/embed/0ykYqkECz9E"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div id="overlay"></div>
+    </div>
+
+  </body>
+</html>
