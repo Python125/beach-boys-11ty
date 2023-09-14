@@ -244,7 +244,7 @@
 /* Blog Page */
 
 .blog-image {
-  /*background-image: url("/images/studio.jpg");*/
+  background-image: url("/images/studio.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
