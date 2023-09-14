@@ -1,7 +1,3 @@
-body {
-  
-}
-
 /* Home Page */
 .home-body {
   background-color: black;
@@ -218,82 +214,6 @@ body {
   transform: translateY(2px);
 }
 
-/*
-.home-content {
-  background-color: white;
-  padding: 1%;
-  margin: 0%;
-  height: 500px;
-}
-
-.h1-content {
-  font-family: "Trebuchet MS", sans-serif;
-}
-
-.paragraph-content {
-  font-size: 18px;
-}
-
-.content-button {
-  background-color: #ff6900;
-  color: white;
-  border-radius: 30px;
-  margin-left: 55%;
-  margin-top: 2%;
-  padding: 1%;
-  font-size: 20px;
-  font-family: "Futura", sans-serif;
-  position: absolute;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.footer-image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 0%;
-  margin-left: 4%;
-  padding: 1%;
-  height: 570px;
-  padding-left: 50px;
-  position: relative;
-}
-
-.image-text2 {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 60px;
-  line-height: 1;
-  margin-top: 18%;
-  margin-left: 2%;
-  position: absolute;
-}
-
-.image-btn2 {
-  background-color: #ff6900;
-  color: white;
-  border-radius: 30px;
-  margin-left: 1.5%;
-  margin-top: 23%;
-  padding: 1%;
-  font-size: 20px;
-  font-family: "Futura", sans-serif;
-  position: absolute;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.image-btn2:active {
-  box-shadow: none;
-  transform: translateY(2px);
-}
-
-hr {
-  margin-top: 6%;
-}
-*/
-
 .home-footer {
   height: 95px;
   width: 100%;
@@ -321,20 +241,10 @@ hr {
   opacity: 0.7;
 }
 
-/*
-.footer-text {
-  color: white;
-  font-size: 20.5px;
-  margin: 4%;
-  margin-left: 1%;
-  font-family: "Arial", sans-serif;
-}
-*/
-
 /* Blog Page */
 
 .blog-image {
-  background-image: url("/images/beach.jpg");
+  /*background-image: url("/images/studio.jpg");*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -343,29 +253,37 @@ hr {
   position: relative;
 }
 
-.blog-text {
+.blog-text1 {
   color: white;
+  display: flex;
   font-family: "Figtree", sans-serif;
   font-size: 75px;
   font-weight: 600;
-}
-/*
-.blog-btn {
-  background-color: #ec5a30;
-  color: white;
-  font-family: "Figtree", sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 30px;
-  border-radius: 30px;
-  margin-top: 354px;
-  margin-left: 60px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: absolute;
+  letter-spacing: 0.1rem;
+  line-height: 77px;
+  margin-top: 250px;
+  margin-left: 275px;
   text-decoration: none;
-  cursor: pointer;
+  position: absolute;
 }
-*/
+
+.blog-text2 {
+  color: white;
+  display: flex;
+  font-family: "Figtree", sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-top: 250px;
+  margin-left: 1000px;
+  text-decoration: none;
+  position: absolute;
+}
+
+.blog-text1:hover {
+  text-decoration: underline;
+}
+
+.blog-text2:hover {
+  text-decoration: underline;
+}

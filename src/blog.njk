@@ -3,24 +3,23 @@ title: Blog
 layout: 'base.njk'
 ---
 
-<body style="background-color: black; color: white;">
+<body style="background-color: black; color: white">
   <div class="blog-image">
-    <h1 class="blogImage-text">
-      Adventure <br />
-      Awaits
-    </h1>
-     <!--a class="image-btn" href="./blog">Learn More</a-->
+    <a href="wax-stack.md" class="blog-text1">Wax Stack</a>
+    <a href="" class="blog-text2">Snapsicles</a>
   </div>
 
-<!--div class="blog-content">
-  <img src="/images/party6.jpg">
-</div-->
+  <button id="play-audio-button">Play Audio</button>
+  <audio id="autoplay-audio">
+    <source src="beach-boys.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
 
-
-
-<!--div class="blog-text">
-  <h1>Wax Stack</h1>
-  <h1>Snapsicles</h1>
-</div-->
-
+  <!--div class="section container">
+    <h1 class="section-title">Recent articles</h1>
+    <ul role="list" class="articles__list flow">
+      {%- for post in collections.post | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor %}
+    </ul-->
 </body>

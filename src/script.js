@@ -1,3 +1,12 @@
+// Get references to the elements
+const audio = document.getElementById("autoplay-audio");
+const playButton = document.getElementById("play-audio-button");
+
+// Add an event listener to play the audio when the button is clicked
+playButton.addEventListener("click", () => {
+  audio.play();
+});
+
 /*
 const openModalButtons = document.querySelectorAll("[data-modal-target]");
 const closeModalButtons = document.querySelectorAll("[data-close-button]");
