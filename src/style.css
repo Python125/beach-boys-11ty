@@ -280,10 +280,7 @@
   position: absolute;
 }
 
-.blog-text1:hover {
-  text-decoration: underline;
-}
-
+.blog-text1:hover,
 .blog-text2:hover {
   text-decoration: underline;
 }
