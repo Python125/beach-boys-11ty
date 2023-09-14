@@ -1,3 +1,7 @@
+body {
+  
+}
+
 /* Home Page */
 .home-body {
   background-color: black;
@@ -327,110 +331,41 @@ hr {
 }
 */
 
+/* Blog Page */
+
+.blog-image {
+  background-image: url("/images/beach.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 4.6%;
+  height: 580px;
+  position: relative;
+}
+
+.blog-text {
+  color: white;
+  font-family: "Figtree", sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+}
 /*
-.modal {
-  width: 700px;
-  height: 520px;
-  max-width: 80%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 300ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
-  z-index: 10;
-  background-color: white;
-  overflow: scroll;
-}
-
-.modal.active {
-  transform: translate(-50%, -50%) scale(1);
-}
-
-.modal-header {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid black;
-}
-
-.modal-header .title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.modal-header .close-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.modal-body {
-  padding: 10px 15px;
-}
-
-.overlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-}
-
-@media screen and (max-width: 600px) {
-  .modal {
-    width: 90%;
-    height: 65%;
-    max-width: none;
-  }
-
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-}
-*/
-
-/* Discography Page */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 50%;
-  height: 50%;
-  overflow: scroll;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
+.blog-btn {
+  background-color: #ec5a30;
+  color: white;
+  font-family: "Figtree", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  border-radius: 30px;
+  margin-top: 354px;
+  margin-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
   text-decoration: none;
   cursor: pointer;
 }
+*/
