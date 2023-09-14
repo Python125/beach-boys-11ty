@@ -1,45 +1,42 @@
 ---
-title: My homepage
+title: Home Page
 layout: 'base.njk'
 ---
-      
-<section class="hero">
-  <div class="container flow">
-    <div class="hero__content flow">
-      <h1 class="section-title">Welcome to my blog!</h1>
-      <p>
-        I use this space to document my adventures in front-end development,
-        sharing how I’ve overcome issues I’ve run into, useful resources, and
-        more.
-      </p>
-      <p>
-        Below are some of my favourite articles, or you can go to the blog page
-        to see my most recent posts.
-      </p>
-      <div class="flex-group">
-        <a href="#featured-articles" class="btn btn--primary"
-          >Featured articles</a
-        >
-        <a href="./blog" class="btn btn--neutral">Most recent articles</a>
-      </div>
-    </div>
-    <div>
-      <img src="//unsplash.it/510" alt="" class="hero__image" />
-    </div>
-  </div>
-</section>
 
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <h2 class="section-title text-center">Featured articles</h2>
-    <p class="text-center">
-      Here is a sample of articles which I feel give you a good idea of what
-      this site is all about.
-    </p>
-    <ul role="list" class="articles__list flow">
-      {%- for post in collections.featured | reverse -%}
-      {% include 'article-snippet.njk' %}
-      {%- endfor %}
-    </ul>
+<body class="home-body">
+  <div class="home-image">
+    <h1 class="home-image-text">
+      Adventure <br />
+      Awaits
+    </h1>
+     <a class="home-image-btn" href="./blog">Learn More</a>
   </div>
-</section>
+
+  <!--div class="home-content">
+        <h1 class="h1-content">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+        <p class="paragraph-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vero sequi
+          eligendi quam ratione! Quaerat rem doloremque consectetur soluta voluptates
+          voluptas praesentium unde accusamus quo exercitationem, sed similique enim
+          iure?
+        </p>
+        <a class="content-button" href="">"I had to spend in bed with a flu bug instead of on a yacht with the photographer"</a>
+      </div-->
+
+  <!--div class="footer-image">
+        <div>
+          <div>
+            <div>
+              <h1 class="image-text2">Get 20% Off Your First Trip</h1>
+            </div>
+          </div>
+          <a class="image-btn2" href="">Learn More</a>
+        </div>
+      </div-->
+
+  <footer class="home-footer">
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-facebook"></a>
+  </footer>
+</body>
