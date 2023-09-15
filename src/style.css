@@ -44,9 +44,11 @@
   margin-left: 4.6%;
   height: 580px;
   position: relative;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.home-image-text {
+.home-text {
   color: white;
   font-family: "Figtree", sans-serif;
   font-size: 75px;
@@ -56,9 +58,11 @@
   margin-top: 170px;
   margin-left: 65px;
   position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.home-image-btn {
+.home-btn {
   background-color: #ec5a30;
   color: white;
   font-family: "Figtree", sans-serif;
@@ -75,10 +79,11 @@
   position: absolute;
   text-decoration: none;
   cursor: pointer;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 @media (max-width: 767px) {
-  .home-image-text {
+  .home-text {
     color: white;
     font-family: "Figtree", sans-serif;
     font-size: 50px;
@@ -90,7 +95,7 @@
     position: absolute;
   }
 
-  .home-image-btn {
+  .home-btn {
     background-color: #ec5a30;
     color: white;
     font-family: "Figtree", sans-serif;
@@ -111,7 +116,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .home-image-text {
+  .home-text {
     color: white;
     font-family: "Figtree", sans-serif;
     font-size: 60px;
@@ -123,7 +128,7 @@
     position: absolute;
   }
 
-  .home-image-btn {
+  .home-btn {
     background-color: #ec5a30;
     color: white;
     font-family: "Figtree", sans-serif;
@@ -144,7 +149,7 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
-  .home-image-text {
+  .home-text {
     color: white;
     font-family: "Figtree", sans-serif;
     font-size: 70px;
@@ -156,7 +161,7 @@
     position: absolute;
   }
 
-  .home-image-btn {
+  .home-btn {
     background-color: #ec5a30;
     color: white;
     font-family: "Figtree", sans-serif;
@@ -177,7 +182,7 @@
 }
 
 @media (min-width: 1440px) {
-  .home-image-text {
+  .home-text {
     color: white;
     font-family: "Figtree", sans-serif;
     font-size: 75px;
@@ -189,7 +194,7 @@
     position: absolute;
   }
 
-  .home-image-btn {
+  .home-btn {
     background-color: #ec5a30;
     color: white;
     font-family: "Figtree", sans-serif;
@@ -251,6 +256,8 @@
   margin-left: 4.6%;
   height: 580px;
   position: relative;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .blog-text1 {
@@ -265,6 +272,7 @@
   margin-left: 275px;
   text-decoration: none;
   position: absolute;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .blog-text2 {
@@ -278,6 +286,12 @@
   margin-left: 1000px;
   text-decoration: none;
   position: absolute;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.blog-text1,
+.blog-text2 {
+  opacity: 0;
 }
 
 .blog-text1:hover,
