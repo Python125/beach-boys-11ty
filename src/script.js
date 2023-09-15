@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     homeImage.style.opacity = "1";
     homeImage.style.transform = "translateY(0)";
-  }, 3000);
+  }, 2000);
 });
 
 window.addEventListener("load", () => {
@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     homeText.style.opacity = "1";
     homeText.style.transform = "translateX(0)";
-  }, 5000);
+  }, 4000);
 });
 
 window.addEventListener("load", () => {
@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     homeButton.style.opacity = "1";
     homeButton.style.transform = "translateX(0)";
-  }, 7000);
+  }, 6000);
 });
 
 window.addEventListener("load", () => {
@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogImage.style.opacity = "1";
     blogImage.style.transform = "translateX(0)";
-  }, 2000);
+  }, 3000);
 });
 
 window.addEventListener("load", () => {
@@ -52,7 +52,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText1.style.opacity = "1";
     blogText1.style.transform = "translateX(0)";
-  }, 4000);
+  }, 5000);
 });
 
 window.addEventListener("load", () => {
@@ -64,5 +64,5 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText2.style.opacity = "1";
     blogText2.style.transform = "translateX(0)";
-  }, 6000);
+  }, 7000);
 });
