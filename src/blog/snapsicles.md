@@ -2,6 +2,6 @@
 title: Snapsicles
 ---
 
-<body style="background-color: black; color: white">
+<body>
 <h1>Hello, world</h1>
 </body>
