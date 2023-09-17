@@ -235,7 +235,6 @@ body {
   align-items: center;
 }
 
-
 .fa {
   padding: 10px;
   color: #7f7a82;
@@ -307,14 +306,14 @@ body {
 
 /* Wax Stack */
 
-.wrapper {
+.wrapper1 {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
 }
 
-header {
+.header1 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -324,8 +323,8 @@ header {
   z-index: -1;
 }
 
-.background {
-  background-image: url("/images/beach-sunshine2.jpeg");
+.background1 {
+  background-image: url("/images/beach-sunshine2.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -337,7 +336,7 @@ header {
   transform-style: preserve-3d;
 }
 
-.foreground {
+.foreground1 {
   background-image: url("/images/safari.png");
   background-size: cover;
   background-position: center;
@@ -346,8 +345,8 @@ header {
   transform: translateZ(-5px) scale(1.5);
 }
 
-.background,
-.foreground {
+.background1,
+.foreground1 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -355,13 +354,76 @@ header {
   z-index: -1;
 }
 
-.title {
+.title1 {
   font-size: 7rem;
   color: white;
   text-shadow: 0 0 5px black;
 }
 
-section {
+.section1 {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
+
+/* Snapsicles Page */
+
+.wrapper2 {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.header2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.background2 {
+  background-image: url("/images/parking-lot.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.foreground2 {
+  background-image: url("/images/shut-down2.png");
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.background2,
+.foreground2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.title2 {
+  font-size: 7rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.section2 {
   font-size: 2rem;
   padding: 2rem;
   background-color: #333;

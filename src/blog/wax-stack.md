@@ -2,13 +2,13 @@
 ---
 
 <body>
-  <div class="wrapper">
-    <header>
-      <div class="background"></div>
-      <div class="foreground"></div>
-      <h1 class="title">Wax Stack</h1>
+  <div class="wrapper1">
+    <header class="header1">
+      <div class="background1"></div>
+      <div class="foreground1"></div>
+      <h1 class="title1">Wax Stack</h1>
     </header>
-    <section>
+    <section class="section1">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis unde
       illo neque at hic quisquam, nulla consectetur, itaque maxime sit iusto
       aliquam culpa reiciendis eaque recusandae vitae modi, animi expedita
