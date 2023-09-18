@@ -340,7 +340,8 @@ body {
   background-image: url("/images/safari.png");
   background-size: cover;
   background-position: center;
-
+  top: 0;
+  left: 0;
   transform: translateZ(-5px) scale(1.5);
 }
 
