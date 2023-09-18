@@ -1,5 +1,4 @@
 /* All Pages */
-
 body {
   margin: 0;
   background-color: black;
@@ -7,7 +6,6 @@ body {
 }
 
 /* Home Page */
-
 .home-header {
   height: 65px;
   width: 100%;
@@ -252,7 +250,6 @@ body {
 }
 
 /* Blog Page */
-
 .blog-image {
   background-image: url("/images/studio.jpg");
   background-size: cover;
@@ -305,7 +302,6 @@ body {
 }
 
 /* Wax Stack */
-
 .wrapper1 {
   height: 100vh;
   overflow-y: auto;
@@ -324,7 +320,7 @@ body {
 }
 
 .background1 {
-  background-image: url("/images/beach-sunshine2.png");
+  background-image: url("/images/beach-sunshine.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -368,7 +364,6 @@ body {
 }
 
 /* Snapsicles Page */
-
 .wrapper2 {
   height: 100vh;
   overflow-y: auto;
