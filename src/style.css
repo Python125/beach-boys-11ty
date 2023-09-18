@@ -307,7 +307,7 @@ body {
 
 /* Wax Stack */
 .wrapper1 {
-  height: 100vh;
+  height: 85vh;
   overflow-y: scroll;
   overflow-x: hidden;
   perspective: 10px;
@@ -369,7 +369,7 @@ body {
 
 /* Snapsicles Page */
 .wrapper2 {
-  height: 100vh;
+  height: 85vh;
   overflow-y: scroll;
   overflow-x: hidden;
   perspective: 10px;
