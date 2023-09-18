@@ -274,7 +274,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.1rem;
   line-height: 77px;
-  margin-top: 250px;
+  margin-top: 600px;
   margin-left: 275px;
   text-decoration: none;
   position: absolute;
@@ -288,7 +288,7 @@ body {
   font-size: 75px;
   font-weight: 600;
   letter-spacing: 0.1rem;
-  margin-top: 250px;
+  margin-top: 593.4px;
   margin-left: 1000px;
   text-decoration: none;
   position: absolute;
@@ -387,7 +387,7 @@ body {
 
 .background2 {
   background-image: url("/images/parking-lot.png");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   transform: translateZ(-10px) scale(2);
@@ -396,8 +396,8 @@ body {
 
 .foreground2 {
   background-image: url("/images/shut-down2.png");
-  background-size: cover;
-  background-position: center;
+  background-size: 100%;
+  background-position:top;
   background-repeat: no-repeat;
   transform: translateZ(-5px) scale(1.5);
   transform-style: preserve-3d;
