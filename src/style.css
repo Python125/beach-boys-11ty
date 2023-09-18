@@ -6,7 +6,7 @@ body {
 }
 
 /* Home Page */
-.home-header {
+.main-header {
   height: 65px;
   width: 100%;
   display: flex;
@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
 }
 
-.header-title {
+.main-title {
   color: white;
   margin-top: 0.9%;
   margin-left: 2.5%;
@@ -25,7 +25,7 @@ body {
   cursor: pointer;
 }
 
-.header-title:hover {
+.main-title:hover {
   text-decoration: underline;
 }
 
@@ -83,6 +83,10 @@ body {
   text-decoration: none;
   cursor: pointer;
   transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.home-btn:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
@@ -304,7 +308,7 @@ body {
 /* Wax Stack */
 .wrapper1 {
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
   perspective: 10px;
 }
@@ -336,8 +340,7 @@ body {
   background-image: url("/images/safari.png");
   background-size: cover;
   background-position: center;
-  top: 0;
-  left: 0;
+
   transform: translateZ(-5px) scale(1.5);
 }
 
