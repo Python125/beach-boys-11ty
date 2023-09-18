@@ -1,3 +1,7 @@
+---
+title: Wax Stack
+---
+
 <body>
   <div class="wrapper1">
     <header class="header1">

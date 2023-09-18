@@ -1,3 +1,7 @@
+---
+title: Snapsicles
+---
+
 <body>
   <div class="wrapper2">
     <header class="header2">
