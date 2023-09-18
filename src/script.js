@@ -47,11 +47,11 @@ window.addEventListener("load", () => {
   const blogText1 = document.querySelector(".blog-text1");
 
   blogText1.style.opacity = "0";
-  blogText1.style.transform = "translateY(100%)";
+  blogText1.style.transform = "translateY(100vh)";
 
   setTimeout(() => {
     blogText1.style.opacity = "1";
-    blogText1.style.transform = "translateX(0)";
+    blogText1.style.transform = "translateY(0)";
   }, 2000);
 });
 
@@ -59,10 +59,10 @@ window.addEventListener("load", () => {
   const blogText2 = document.querySelector(".blog-text2");
 
   blogText2.style.opacity = "0";
-  blogText2.style.transform = "translateY(100%)";
+  blogText2.style.transform = "translateY(100vh)";
 
   setTimeout(() => {
     blogText2.style.opacity = "1";
-    blogText2.style.transform = "translateX(0)";
-  }, 3000);
+    blogText2.style.transform = "translateY(0)";
+  }, 4000);
 });
