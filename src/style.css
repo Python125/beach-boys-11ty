@@ -389,11 +389,7 @@ body {
   background-image: url("/images/parking-lot.png");
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
+  background-repeat: no-repeat;
   transform: translateZ(-10px) scale(2);
   transform-style: preserve-3d;
 }
@@ -402,9 +398,9 @@ body {
   background-image: url("/images/shut-down2.png");
   background-size: cover;
   background-position: center;
-  top: 0;
-  left: 0;
+  background-repeat: no-repeat;
   transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
 }
 
 .background2,
@@ -413,6 +409,11 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
