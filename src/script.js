@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogImage.style.opacity = "1";
     blogImage.style.transform = "translateX(0)";
-  }, 1000);
+  }, 500);
 });
 
 window.addEventListener("load", () => {
@@ -52,7 +52,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText1.style.opacity = "1";
     blogText1.style.transform = "translateY(0)";
-  }, 1000);
+  }, 550);
 });
 
 window.addEventListener("load", () => {
@@ -64,5 +64,5 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText2.style.opacity = "1";
     blogText2.style.transform = "translateY(0)";
-  }, 2000);
+  }, 1200);
 });
