@@ -27,5 +27,6 @@ title: Wax Stack
       uncharted musical waters, forever transcending the confines of time and
       place.
     </section>
+    <div></div>
   </div>
 </body>
