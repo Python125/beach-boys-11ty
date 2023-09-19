@@ -47,22 +47,22 @@ window.addEventListener("load", () => {
   const blogText1 = document.querySelector(".blog-text1");
 
   blogText1.style.opacity = "0";
-  blogText1.style.transform = "translateY(100vh)";
+  blogText1.style.transform = "translateY(1000vh)";
 
   setTimeout(() => {
     blogText1.style.opacity = "1";
     blogText1.style.transform = "translateY(0)";
-  }, 2000);
+  }, 1000);
 });
 
 window.addEventListener("load", () => {
   const blogText2 = document.querySelector(".blog-text2");
 
   blogText2.style.opacity = "0";
-  blogText2.style.transform = "translateY(100vh)";
+  blogText2.style.transform = "translateY(1000vh)";
 
   setTimeout(() => {
     blogText2.style.opacity = "1";
     blogText2.style.transform = "translateY(0)";
-  }, 4000);
+  }, 2000);
 });
