@@ -410,6 +410,10 @@ body {
   text-decoration: underline;
 }
 
+.blog-def1 {
+  font-size: 25px;
+}
+
 /* Wax Stack */
 .wrapper1 {
   height: 85vh;
