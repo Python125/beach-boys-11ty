@@ -9,7 +9,7 @@ title: Snapsicles
       <div class="foreground2"></div>
       <h1 class="title2">Snapsicles</h1>
     </header>
-    <section class="section2">
+    <section class="snapsicles-section">
       Step into a digital time capsule and explore a captivating Beach Boys
       photo collection that reimagines the nostalgia of the 1960s and '70s. This
       webpage offers a unique twist on familiar images, combining well-known

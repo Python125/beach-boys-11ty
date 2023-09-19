@@ -9,7 +9,7 @@ title: Wax Stack
       <div class="foreground1"></div>
       <h1 class="title1">Wax Stack</h1>
     </header>
-    <section class="section1">
+    <section class="waxStack-section">
       The Beach Boys, renowned for their sun-soaked harmonies and iconic surf
       tunes, defied all expectations throughout the tumultuous 1960s and '70s.
       Their musical journey took a radical turn as they transitioned from
