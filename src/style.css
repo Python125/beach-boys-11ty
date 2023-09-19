@@ -227,6 +227,7 @@ body {
   transform: translateY(2px);
 }
 
+/*
 .home-footer {
   height: 95px;
   width: 100%;
@@ -252,7 +253,8 @@ body {
 
 .fa:hover {
   opacity: 0.7;
-}
+} 
+*/
 
 /* Blog Page */
 .blog-image {
