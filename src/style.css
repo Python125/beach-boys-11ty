@@ -410,8 +410,12 @@ body {
   text-decoration: underline;
 }
 
-.blog-def1 {
+.blog-section1 {
+  display: block;
   font-size: 25px;
+  width: 13%;
+  margin-top: 50px;
+  margin-left: 440px;
 }
 
 /* Wax Stack */
@@ -470,7 +474,7 @@ body {
   text-shadow: 0 0 15px black;
 }
 
-.section1 {
+.waxStack-section {
   font-size: 2rem;
   padding: 2rem;
   background-color: #333;
@@ -533,7 +537,7 @@ body {
   text-shadow: 0 0 5px black;
 }
 
-.section2 {
+.snapsicles-section {
   font-size: 2rem;
   padding: 2rem;
   background-color: #333;
