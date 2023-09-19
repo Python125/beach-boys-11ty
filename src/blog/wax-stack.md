@@ -3,11 +3,11 @@ title: Wax Stack
 ---
 
 <body>
-  <div class="wrapper1">
-    <header class="header1">
-      <div class="background1"></div>
-      <div class="foreground1"></div>
-      <h1 class="title1">Wax Stack</h1>
+  <div class="waxStack-wrapper1">
+    <header class="waxStack-header1">
+      <div class="waxStack-background1"></div>
+      <div class="waxStack-foreground1"></div>
+      <h1 class="waxStack-title">Wax Stack</h1>
     </header>
     <section class="waxStack-section">
       The Beach Boys, renowned for their sun-soaked harmonies and iconic surf
@@ -27,6 +27,13 @@ title: Wax Stack
       uncharted musical waters, forever transcending the confines of time and
       place.
     </section>
-    <div></div>
+  </div>
+
+  <div class="waxStack-wrapper2">
+    <header class="waxStack-header2">
+      <div class="waxStack-background2"></div>
+      <div class="waxStack-foreground2"></div>
+      <h1 class="waxStack-title">Wax Stack</h1>
+    </header>
   </div>
 </body>

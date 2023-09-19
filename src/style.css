@@ -410,23 +410,15 @@ body {
   text-decoration: underline;
 }
 
-.blog-section1 {
-  display: block;
-  font-size: 25px;
-  width: 13%;
-  margin-top: 50px;
-  margin-left: 440px;
-}
-
 /* Wax Stack */
-.wrapper1 {
+.waxStack-wrapper {
   height: 85vh;
   overflow-y: scroll;
   overflow-x: hidden;
   perspective: 10px;
 }
 
-.header1 {
+.waxStack-header {
   position: relative;
   display: flex;
   justify-content: center;
@@ -436,7 +428,7 @@ body {
   z-index: -1;
 }
 
-.background1 {
+.waxStack-background1 {
   background-image: url("/images/beach-sunshine.png");
   background-size: cover;
   background-position: center;
@@ -449,7 +441,7 @@ body {
   transform-style: preserve-3d;
 }
 
-.foreground1 {
+.waxStack-foreground1 {
   background-image: url("/images/safari.png");
   background-size: cover;
   background-position: center;
@@ -458,8 +450,8 @@ body {
   transform: translateZ(-5px) scale(1.5);
 }
 
-.background1,
-.foreground1 {
+.waxStack-background1,
+.waxStack-foreground1 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -467,7 +459,7 @@ body {
   z-index: -1;
 }
 
-.title1 {
+.waxStack-title {
   font-size: 70px;
   text-align: center;
   color: white;
@@ -481,15 +473,8 @@ body {
   color: white;
 }
 
-/* Snapsicles Page */
-.wrapper2 {
-  height: 85vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  perspective: 10px;
-}
-
-.header2 {
+/*
+.waxStack-header {
   position: relative;
   display: flex;
   justify-content: center;
@@ -499,7 +484,57 @@ body {
   z-index: -1;
 }
 
-.background2 {
+.waxStack-background2 {
+  background-image: url("/images/beach5.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground2 {
+  background-image: url("/images/monkees.png");
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.waxStack-background2,
+.waxStack-foreground2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+*/
+
+/* Snapsicles Page */
+.snapsicles-wrapper1 {
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.snapsicles-header1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.snapsicles-background1 {
   background-image: url("/images/parking-lot.png");
   background-size: 100%;
   background-position: center;
@@ -508,7 +543,7 @@ body {
   transform-style: preserve-3d;
 }
 
-.foreground2 {
+.snapsicles-foreground1 {
   background-image: url("/images/shut-down2.png");
   background-size: 100%;
   background-position: top;
@@ -517,8 +552,8 @@ body {
   transform-style: preserve-3d;
 }
 
-.background2,
-.foreground2 {
+.snapsicles-background1,
+.snapsicles-foreground1 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -531,15 +566,73 @@ body {
   z-index: -1;
 }
 
-.title2 {
+.snapsicles-title {
   font-size: 7rem;
   color: white;
   text-shadow: 0 0 5px black;
 }
 
-.snapsicles-section {
+.snapsicles-section1 {
   font-size: 2rem;
   padding: 2rem;
+  height: 35%;
+  background-color: #333;
+  color: white;
+}
+
+.snapsicles-wrapper2 {
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.snapsicles-header2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.snapsicles-background2 {
+  background-image: url("/images/beach5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.snapsicles-foreground2 {
+  background-image: url("/images/monkees.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.snapsicles-background2,
+.snapsicles-foreground2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.snapsicles-section2 {
+  font-size: 2rem;
+  padding: 2rem;
+  height: 55%;
   background-color: #333;
   color: white;
 }
