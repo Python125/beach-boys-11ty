@@ -1,7 +1,7 @@
 /* All Pages */
 body {
   margin: 0;
-  background-color: black;  
+  background-color: black;
   color: white;
   overflow: hidden;
 }
@@ -271,14 +271,15 @@ body {
 
 .blog-text1 {
   color: white;
-  display: flex;
   font-family: "Figtree", sans-serif;
   font-size: 75px;
   font-weight: 600;
   letter-spacing: 0.1rem;
+  text-shadow: 0 0 20px black;
+  display: flex;
   line-height: 77px;
   margin-top: 250px;
-  margin-left: 275px;
+  margin-left: 325px;
   text-decoration: none;
   position: absolute;
   transition: transform 2s ease-in-out;
@@ -286,17 +287,117 @@ body {
 
 .blog-text2 {
   color: white;
-  display: flex;
   font-family: "Figtree", sans-serif;
   font-size: 75px;
   font-weight: 600;
   letter-spacing: 0.1rem;
-  margin-top: 250px;
-  margin-left: 1000px;
+  text-shadow: 0 0 20px black;
+  display: flex;
+  margin-top: 255px;
+  margin-left: 955px;
   text-decoration: none;
   position: absolute;
   transform: translateY(100%);
   transition: transform 2s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .blog-text1 {
+    color: white;
+    text-shadow: 0 0 20px black;
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 77px;
+    margin-top: 250px;
+    margin-left: 105px;
+    text-decoration: none;
+    position: absolute;
+    transition: transform 2s ease-in-out;
+  }
+
+  .blog-text2 {
+    color: white;
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 360px;
+    margin-left: 105px;
+    text-decoration: none;
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 2s ease-in-out;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .blog-text1 {
+    color: white;
+    text-shadow: 0 0 20px black;
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 77px;
+    margin-top: 250px;
+    margin-left: 35px;
+    text-decoration: none;
+    position: absolute;
+    transition: transform 2s ease-in-out;
+  }
+
+  .blog-text2 {
+    color: white;
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 260px;
+    margin-left: 420px;
+    text-decoration: none;
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 2s ease-in-out;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .blog-text1 {
+    color: white;
+    text-shadow: 0 0 20px black;
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 77px;
+    margin-top: 250px;
+    margin-left: 135px;
+    text-decoration: none;
+    position: absolute;
+    transition: transform 2s ease-in-out;
+  }
+
+  .blog-text2 {
+    color: white;
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 255px;
+    margin-left: 625px;
+    text-decoration: none;
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 2s ease-in-out;
+  }
 }
 
 .blog-text1,
@@ -402,7 +503,7 @@ body {
 .foreground2 {
   background-image: url("/images/shut-down2.png");
   background-size: 100%;
-  background-position:top;
+  background-position: top;
   background-repeat: no-repeat;
   transform: translateZ(-5px) scale(1.5);
   transform-style: preserve-3d;
