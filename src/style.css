@@ -411,14 +411,14 @@ body {
 }
 
 /* Wax Stack */
-.waxStack-wrapper {
+.waxStack-wrapper1 {
   height: 85vh;
   overflow-y: scroll;
   overflow-x: hidden;
   perspective: 10px;
 }
 
-.waxStack-header {
+.waxStack-header1 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -472,49 +472,6 @@ body {
   background-color: #333;
   color: white;
 }
-
-/*
-.waxStack-header {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
-}
-
-.waxStack-background2 {
-  background-image: url("/images/beach5.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  transform: translateZ(-10px) scale(2);
-  transform-style: preserve-3d;
-}
-
-.waxStack-foreground2 {
-  background-image: url("/images/monkees.png");
-  background-size: cover;
-  background-position: center;
-  top: 0;
-  left: 0;
-  transform: translateZ(-5px) scale(1.5);
-}
-
-.waxStack-background2,
-.waxStack-foreground2 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-*/
 
 /* Snapsicles Page */
 .snapsicles-wrapper1 {
@@ -575,64 +532,6 @@ body {
 .snapsicles-section1 {
   font-size: 2rem;
   padding: 2rem;
-  height: 35%;
-  background-color: #333;
-  color: white;
-}
-
-.snapsicles-wrapper2 {
-  height: 85vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  perspective: 10px;
-}
-
-.snapsicles-header2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
-}
-
-.snapsicles-background2 {
-  background-image: url("/images/beach5.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateZ(-10px) scale(2);
-  transform-style: preserve-3d;
-}
-
-.snapsicles-foreground2 {
-  background-image: url("/images/monkees.png");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  transform: translateZ(-5px) scale(1.5);
-  transform-style: preserve-3d;
-}
-
-.snapsicles-background2,
-.snapsicles-foreground2 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.snapsicles-section2 {
-  font-size: 2rem;
-  padding: 2rem;
-  height: 55%;
   background-color: #333;
   color: white;
 }

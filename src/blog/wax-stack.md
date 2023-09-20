@@ -28,12 +28,4 @@ title: Wax Stack
       place.
     </section>
   </div>
-
-  <div class="waxStack-wrapper2">
-    <header class="waxStack-header2">
-      <div class="waxStack-background2"></div>
-      <div class="waxStack-foreground2"></div>
-      <h1 class="waxStack-title">Wax Stack</h1>
-    </header>
-  </div>
 </body>
