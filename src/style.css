@@ -459,7 +459,7 @@ body {
   z-index: -1;
 }
 
-.waxStack-title {
+.waxStack-title1 {
   font-size: 70px;
   text-align: center;
   color: white;
@@ -488,10 +488,10 @@ body {
 
 .waxStack-background2 {
   background-image: url("/images/studio-empty.jpg");
-  height: 100%;
-  background-size: 100%;
+  background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+  margin-top: 48.9%;
   transform: translateZ(-10px) scale(2);
   transform-style: preserve-3d;
 }
@@ -501,6 +501,7 @@ body {
   background-size: 40%;
   background-position: 50%;
   background-repeat: no-repeat;
+  margin-top: 48.9%;
   transform: translateZ(-5px) scale(1.5);
   transform-style: preserve-3d;
 }
@@ -514,9 +515,18 @@ body {
   z-index: -1;
 }
 
+.waxStack-title2 {
+  font-size: 70px;
+  margin-top: 30%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
 .waxStack-content2 {
   font-size: 2rem;
   padding: 2rem;
+  margin-top: 30%;
   background-color: #333;
   color: white;
 }
