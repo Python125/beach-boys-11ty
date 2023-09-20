@@ -4,12 +4,12 @@ title: Wax Stack
 
 <body>
   <div class="waxStack-wrapper1">
-    <header class="waxStack-header1">
+    <div class="waxStack-header1">
       <div class="waxStack-background1"></div>
       <div class="waxStack-foreground1"></div>
       <h1 class="waxStack-title">Wax Stack</h1>
-    </header>
-    <section class="waxStack-section">
+    </div>
+    <section class="waxStack-content1">
       The Beach Boys, renowned for their sun-soaked harmonies and iconic surf
       tunes, defied all expectations throughout the tumultuous 1960s and '70s.
       Their musical journey took a radical turn as they transitioned from
@@ -26,6 +26,14 @@ title: Wax Stack
       Their enduring legacy inspires future generations to venture into
       uncharted musical waters, forever transcending the confines of time and
       place.
+    </section>
+    <div class="waxStack-header2">
+      <div class="waxStack-background2"></div>
+      <div class="waxStack-foreground2"></div>
+      <h1 class="waxStack-title">1967</h1>
+    </div>
+    <section class="waxStack-content2">
+      <p>TBD</p>
     </section>
   </div>
 </body>
