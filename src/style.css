@@ -488,7 +488,7 @@ body {
 
 .waxStack-background2 {
   background-image: url("/images/studio-empty.jpg");
-  height: 50%;
+  height: 80%;
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -498,6 +498,7 @@ body {
 
 .waxStack-foreground2 {
   background-image: url("/images/stack o tracks 3.png");
+  height: 100%;
   background-size: 40%;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -508,10 +509,16 @@ body {
 .waxStack-background2,
 .waxStack-foreground2 {
   position: absolute;
-  height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: -1;
+}
+
+.waxStack-content2 {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
 }
 
 /* Snapsicles Page */
