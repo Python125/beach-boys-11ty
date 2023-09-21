@@ -474,7 +474,7 @@ body {
   color: white;
 }
 
-.waxStack-header2 {
+.waxStack-header9 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -486,7 +486,7 @@ body {
   z-index: -1;
 }
 
-.waxStack-background2 {
+.waxStack-background9 {
   background-image: url("/images/studio-empty.jpg");
   background-size: cover;
   background-position: bottom;
@@ -497,7 +497,7 @@ body {
   transform-style: preserve-3d;
 }
 
-.waxStack-foreground2 {
+.waxStack-foreground9 {
   background-image: url("/images/stack-o-tracks.png");
   background-size: 40%;
   background-position: 50%;
@@ -507,8 +507,8 @@ body {
   transform-style: preserve-3d;
 }
 
-.waxStack-background2,
-.waxStack-foreground2 {
+.waxStack-background9,
+.waxStack-foreground9 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -516,7 +516,7 @@ body {
   z-index: -1;
 }
 
-.waxStack-title2 {
+.waxStack-title9 {
   font-size: 70px;
   margin-top: 20%;
   text-align: center;
@@ -524,7 +524,7 @@ body {
   text-shadow: 0 0 15px black;
 }
 
-.waxStack-content2 {
+.waxStack-content9 {
   font-size: 2rem;
   padding: 5rem;
   margin-top: 15%;
