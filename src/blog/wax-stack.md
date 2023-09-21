@@ -3,7 +3,7 @@ title: Wax Stack
 ---
 
 <body>
-  <div class="waxStack-wrapper1">
+  <div class="waxStack-container">
     <div class="waxStack-header1">
       <div class="waxStack-background1"></div>
       <div class="waxStack-foreground1"></div>

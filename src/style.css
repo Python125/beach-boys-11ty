@@ -411,7 +411,7 @@ body {
 }
 
 /* Wax Stack */
-.waxStack-wrapper1 {
+.waxStack-container {
   height: 85vh;
   overflow-y: scroll;
   overflow-x: hidden;
