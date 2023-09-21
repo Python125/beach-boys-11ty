@@ -432,17 +432,13 @@ body {
   background-image: url("/images/beach-sunshine.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   top: 0;
   left: 0;
   transform: translateZ(-5px) scale(1.6);
   transform-style: preserve-3d;
 }
-
-
 
 .waxStack-foreground1 {
   background-image: url("/images/safari.png");
@@ -472,6 +468,7 @@ body {
 .waxStack-content1 {
   font-size: 2rem;
   padding: 5rem;
+  margin-top: 15%;
   height: 38%;
   background-color: #333;
   color: white;
@@ -482,12 +479,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 0;
+  left: 0;
   height: 100%;
   transform-style: preserve-3d;
   z-index: -1;
-  color: white;
-  font-size: 50px;
-  text-shadow: 0 0 20px black;
 }
 
 .waxStack-background2 {
@@ -495,6 +491,7 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+  height: 100%;
   margin-top: 38%;
   transform: translateZ(-10px) scale(2);
   transform-style: preserve-3d;
@@ -530,13 +527,15 @@ body {
 .waxStack-content2 {
   font-size: 2rem;
   padding: 5rem;
-  margin-top: 5%;
+  margin-top: 15%;
   height: 38%;
   background-color: #333;
   color: white;
 }
 
+
 /* Snapsicles Page */
+/*
 .snapsicles-wrapper1 {
   height: 85vh;
   overflow-y: scroll;
@@ -598,3 +597,4 @@ body {
   background-color: #333;
   color: white;
 }
+*/
