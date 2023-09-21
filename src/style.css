@@ -495,7 +495,7 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  margin-top: 36%;
+  margin-top: 38%;
   transform: translateZ(-10px) scale(2);
   transform-style: preserve-3d;
 }
