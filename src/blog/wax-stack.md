@@ -30,7 +30,7 @@ title: Wax Stack
     <div class="waxStack-header2">
       <div class="waxStack-background2"></div>
       <div class="waxStack-foreground2"></div>
-      <h1 class="waxStack-title2">1967</h1>
+      <h1 class="waxStack-title2">1968</h1>
     </div>
     <section class="waxStack-content2">
       <p>TBD</p>
