@@ -18,7 +18,10 @@ title: Wax Stack
       introspective lyrics, marking a stark departure from their earlier breezy
       hits. "Good Vibrations" further exemplified their evolution, venturing
       into psychedelic territory and challenging the boundaries of popular
-      music. As the '70s dawned, The Beach Boys continued their musical
+      music.
+      <br>
+      <br>
+      As the '70s dawned, The Beach Boys continued their musical
       exploration with albums like "Sunflower" and "Surf's Up," unveiling an
       experimental sound that seamlessly blended rock, folk, and progressive
       elements. The Beach Boys were more than just California dreamers; they
