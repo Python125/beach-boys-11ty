@@ -474,6 +474,421 @@ body {
   color: white;
 }
 
+/*
+.waxStack-header2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background2 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground2 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background2,
+.waxStack-foreground2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title2 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content2 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+
+.waxStack-header3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background3 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground3 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background3,
+.waxStack-foreground3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title3 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content3 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+
+.waxStack-header4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background4 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground4 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background4,
+.waxStack-foreground4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title4 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content4 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+
+.waxStack-header5 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background5 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground5 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background5,
+.waxStack-foreground5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title5 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content5 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+
+.waxStack-header6 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background6 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground6 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background6,
+.waxStack-foreground6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title6 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content6 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+
+.waxStack-header7 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background7 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground7 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background7,
+.waxStack-foreground7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title7 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content7 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+
+.waxStack-header8 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background8 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground8 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background8,
+.waxStack-foreground8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title8 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content8 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+*/
+
 .waxStack-header9 {
   position: relative;
   display: flex;
@@ -533,6 +948,66 @@ body {
   color: white;
 }
 
+/*
+.waxStack-header10 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.waxStack-background10 {
+  background-image: url("/images/");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 38%;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.waxStack-foreground10 {
+  background-image: url("/images/");
+  background-size: 40%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.waxStack-background10,
+.waxStack-foreground10 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.waxStack-title10 {
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+}
+
+.waxStack-content10 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin-top: 15%;
+  height: 38%;
+  background-color: #333;
+  color: white;
+}
+*/
 
 /* Snapsicles Page */
 
