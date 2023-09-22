@@ -30,15 +30,15 @@ title: Wax Stack
       uncharted musical waters, forever transcending the confines of time and
       place.
     </section>
-    <!--div class="waxStack-header2">
+    <div class="waxStack-header2">
       <div class="waxStack-background2"></div>
       <div class="waxStack-foreground2"></div>
-      <h1 class="waxStack-title2">1961</h1>
+      <h1 class="waxStack-title2">1961-1965</h1>
     </div>
     <section class="waxStack-content2">
       <p>TBD</p>
     </section>
-    <div class="waxStack-header3">
+    <!--div class="waxStack-header3">
       <div class="waxStack-background3"></div>
       <div class="waxStack-foreground3"></div>
       <h1 class="waxStack-title3">1962</h1>
@@ -89,7 +89,7 @@ title: Wax Stack
     <div class="waxStack-header9">
       <div class="waxStack-background9"></div>
       <div class="waxStack-foreground9"></div>
-      <h1 class="waxStack-title9">1968</h1>
+      <h1 class="waxStack-title9">1966-1969</h1>
     </div>
     <section class="waxStack-content9">
       <p>TBD</p>
