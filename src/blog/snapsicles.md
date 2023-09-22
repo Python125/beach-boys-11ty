@@ -2,7 +2,7 @@
 title: Snapsicles
 ---
 
-<body>
+<body class="snapsicles-body">
   <div class="snapsicles-wrapper1">
     <h1 class="title2">Snapsicles</h1>
     <header class="snapsicles-header1">

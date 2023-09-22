@@ -1021,6 +1021,14 @@ body {
 
 /* Snapsicles Page */
 
+.snapsicles-body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
 .snapsicles-wrapper1 {
   height: 85vh;
   overflow-y: scroll;
