@@ -4,11 +4,11 @@ title: Snapsicles
 
 <body>
   <div class="snapsicles-wrapper1">
-      <h1 class="title2">Wax Stack</h1>
+      <h1 class="title2">Snapsicles</h1>
     <header class="snapsicles-header1">
       <div class="snapsicles-background1"></div>
       <div class="snapsicles-foreground1"></div>
-      <h1 class="snapsicles-title">Snapsicles</h1>
+      <h1 class="snapsicles-title">1961-1965</h1>
     </header>
     <section class="snapsicles-section1">
       Step into a digital time capsule and explore a captivating Beach Boys
