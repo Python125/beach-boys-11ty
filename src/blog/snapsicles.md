@@ -4,6 +4,7 @@ title: Snapsicles
 
 <body>
   <div class="snapsicles-wrapper1">
+      <h1 class="title2">Wax Stack</h1>
     <header class="snapsicles-header1">
       <div class="snapsicles-background1"></div>
       <div class="snapsicles-foreground1"></div>
