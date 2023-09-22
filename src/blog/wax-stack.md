@@ -4,11 +4,12 @@ title: Wax Stack
 
 <body>
   <div class="waxStack-container">
-    <h1 class="title1">Wax Stack</h1>
+      <h1 class="waxStack-def">wax stack [n] .</h1>
+      <p>Sixties DJ slang; a collection of vinyl records selected for airplay.</p>
     <div class="waxStack-header1">
       <div class="waxStack-background1"></div>
       <div class="waxStack-foreground1"></div>
-      <h1 class="waxStack-title1">1961-1965</h1>
+    <h1 class="waxStack-title1">1961-1965</h1>
     </div>
     <section class="waxStack-content1">
       <ul>

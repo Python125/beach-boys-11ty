@@ -4,6 +4,7 @@ body {
   background-color: black;
   color: white;
   overflow: hidden;
+  font-family: "Figtree", sans-serif;
 }
 
 /* Home Page */
@@ -418,12 +419,6 @@ body {
   perspective: 10px;
 }
 
-.title1 {
-  font-size: 40px;
-  margin-bottom: 5%;
-  text-align: center;
-}
-
 .waxStack-header1 {
   position: relative;
   display: flex;
@@ -432,6 +427,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
+  margin-top: 9%;
   transform-style: preserve-3d;
   z-index: -1;
 }
@@ -471,6 +467,24 @@ body {
   text-align: center;
   color: white;
   text-shadow: 0 0 15px black;
+  margin-bottom: 22%;
+}
+
+.waxStack-def {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-bottom: -1.5%;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 30px black;
+  margin-bottom: -19%;
 }
 
 .waxStack-content1 {
