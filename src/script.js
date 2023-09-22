@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     homeImage.style.opacity = "1";
     homeImage.style.transform = "translateY(0)";
-  }, 1000);
+  }, 500);
 });
 
 window.addEventListener("load", () => {
@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     homeText.style.opacity = "1";
     homeText.style.transform = "translateX(0)";
-  }, 2000);
+  }, 900);
 });
 
 window.addEventListener("load", () => {
@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     homeButton.style.opacity = "1";
     homeButton.style.transform = "translateX(0)";
-  }, 3000);
+  }, 1400);
 });
 
 window.addEventListener("load", () => {
@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogImage.style.opacity = "1";
     blogImage.style.transform = "translateX(0)";
-  }, 500);
+  }, 800);
 });
 
 window.addEventListener("load", () => {
@@ -51,8 +51,8 @@ window.addEventListener("load", () => {
 
   setTimeout(() => {
     blogText1.style.opacity = "1";
-    blogText1.style.transform = "translateY(0)";
-  }, 550);
+    blogText1.style.transform = "translateX(0)";
+  }, 500);
 });
 
 window.addEventListener("load", () => {
@@ -64,5 +64,5 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText2.style.opacity = "1";
     blogText2.style.transform = "translateY(0)";
-  }, 1200);
+  }, 800);
 });
