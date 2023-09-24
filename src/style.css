@@ -653,9 +653,142 @@ p {
     background-color: #333;
     color: white;
   }
+}
 
-  /* Snapsicles Page */
+/* Snapsicles Page */
 
+.snapsicles-body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+.snapsicles-wrapper1 {
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.title2 {
+  font-size: 40px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.snapsicles-header1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.snapsicles-background1 {
+  background-image: url("/images/parking-lot.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.snapsicles-foreground1 {
+  background-image: url("/images/shut-down2.png");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.snapsicles-background1,
+.snapsicles-foreground1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.snapsicles-title1 {
+  font-size: 7rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.snapsicles-section1 {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
+
+.snapsicles-header2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.snapsicles-background2 {
+  background-image: url("/images/parking-lot.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateZ(-10px) scale(2);
+  transform-style: preserve-3d;
+}
+
+.snapsicles-foreground2 {
+  background-image: url("/images/shut-down2.png");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: translateZ(-5px) scale(1.5);
+  transform-style: preserve-3d;
+}
+
+.snapsicles-background2,
+.snapsicles-foreground2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.snapsicles-title2 {
+  font-size: 7rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.snapsicles-section2 {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
+
+@media (max-width: 767px) {
   .snapsicles-body {
     margin: 0;
     background-color: black;
@@ -665,16 +798,10 @@ p {
   }
 
   .snapsicles-wrapper1 {
-    height: 85vh;
+    height: 92vh;
     overflow-y: scroll;
     overflow-x: hidden;
     perspective: 10px;
-  }
-
-  .title2 {
-    font-size: 40px;
-    margin-bottom: 5%;
-    text-align: center;
   }
 
   .snapsicles-header1 {
@@ -682,14 +809,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 60%;
     transform-style: preserve-3d;
     z-index: -1;
   }
 
   .snapsicles-background1 {
     background-image: url("/images/parking-lot.png");
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transform: translateZ(-10px) scale(2);
@@ -699,7 +826,8 @@ p {
   .snapsicles-foreground1 {
     background-image: url("/images/shut-down2.png");
     background-size: 100%;
-    background-position: top;
+    margin-top: 25%;
+    background-position: bottom;
     background-repeat: no-repeat;
     transform: translateZ(-5px) scale(1.5);
     transform-style: preserve-3d;
@@ -720,14 +848,14 @@ p {
   }
 
   .snapsicles-title1 {
-    font-size: 7rem;
+    font-size: 3rem;
     color: white;
     text-shadow: 0 0 5px black;
   }
 
   .snapsicles-section1 {
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
     background-color: #333;
     color: white;
   }
@@ -737,14 +865,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 60%;
     transform-style: preserve-3d;
     z-index: -1;
   }
 
   .snapsicles-background2 {
-    background-image: url("/images/");
-    background-size: 100%;
+    background-image: url("/images/parking-lot.png");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transform: translateZ(-10px) scale(2);
@@ -752,9 +880,10 @@ p {
   }
 
   .snapsicles-foreground2 {
-    background-image: url("/images/");
+    background-image: url("/images/shut-down2.png");
     background-size: 100%;
-    background-position: top;
+    margin-top: 25%;
+    background-position: bottom;
     background-repeat: no-repeat;
     transform: translateZ(-5px) scale(1.5);
     transform-style: preserve-3d;
@@ -775,18 +904,19 @@ p {
   }
 
   .snapsicles-title2 {
-    font-size: 7rem;
+    font-size: 3rem;
     color: white;
     text-shadow: 0 0 5px black;
   }
 
   .snapsicles-section2 {
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
     background-color: #333;
     color: white;
   }
 
-  @media (max-width: 767px) {
+  .snap-images {
+    width: 100%;
   }
 }
