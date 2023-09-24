@@ -228,35 +228,6 @@ body {
   transform: translateY(2px);
 }
 
-/*
-.home-footer {
-  height: 95px;
-  width: 100%;
-  margin-bottom: 0%;
-  justify-content: space-between;
-  font-family: "Trebuchet MS", sans-serif;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.fa {
-  padding: 10px;
-  color: #7f7a82;
-  font-size: 20px;
-  width: 1px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  margin-top: 1%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-} 
-*/
-
 /* Blog Page */
 .blog-image {
   background-image: url("/images/studio.jpg");
