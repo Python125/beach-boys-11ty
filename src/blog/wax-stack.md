@@ -4,12 +4,12 @@ title: Wax Stack
 
 <body>
   <div class="waxStack-container">
-      <h1 class="waxStack-def">wax stack [n] .</h1>
-      <p>Sixties DJ slang; a collection of vinyl records selected for airplay.</p>
+    <h1 class="waxStack-def">wax stack [n] .</h1>
+    <p>Sixties DJ slang; a collection of vinyl records selected for airplay.</p>
     <div class="waxStack-header1">
       <div class="waxStack-background1"></div>
       <div class="waxStack-foreground1"></div>
-    <h1 class="waxStack-title1">1961-1965</h1>
+      <h1 class="waxStack-title1">1961-1965</h1>
     </div>
     <section class="waxStack-content1">
       <ul>
@@ -32,68 +32,12 @@ title: Wax Stack
         </li>
       </ul>
     </section>
-    <!--div class="waxStack-header2">
-        <div class="waxStack-background2"></div>
-        <div class="waxStack-foreground2"></div>
-        <h1 class="waxStack-title2">1961-1965</h1>
-      </div>
-      <section class="waxStack-content2">
-        <p>TBD</p>
-      </section-->
-    <!--div class="waxStack-header3">
-        <div class="waxStack-background3"></div>
-        <div class="waxStack-foreground3"></div>
-        <h1 class="waxStack-title3">1962</h1>
-      </div>
-      <section class="waxStack-content3">
-        <p>TBD</p>
-      </section>
-      <div class="waxStack-header4">
-        <div class="waxStack-background4"></div>
-        <div class="waxStack-foreground4"></div>
-        <h1 class="waxStack-title4">1963</h1>
-      </div>
-      <section class="waxStack-content4">
-        <p>TBD</p>
-      </section>
-      <div class="waxStack-header5">
-        <div class="waxStack-background5"></div>
-        <div class="waxStack-foreground5"></div>
-        <h1 class="waxStack-title5">1964</h1>
-      </div>
-      <section class="waxStack-content5">
-        <p>TBD</p>
-      </section>
-      <div class="waxStack-header6">
-        <div class="waxStack-background6"></div>
-        <div class="waxStack-foreground6"></div>
-        <h1 class="waxStack-title6">1965</h1>
-      </div>
-      <section class="waxStack-content6">
-        <p>TBD</p>
-      </section>
-      <div class="waxStack-header7">
-        <div class="waxStack-background7"></div>
-        <div class="waxStack-foreground7"></div>
-        <h1 class="waxStack-title7">1966</h1>
-      </div>
-      <section class="waxStack-content7">
-        <p>TBD</p>
-      </section>
-      <div class="waxStack-header8">
-        <div class="waxStack-background8"></div>
-        <div class="waxStack-foreground8"></div>
-        <h1 class="waxStack-title8">1967</h1>
-      </div>
-      <section class="waxStack-content8">
-        <p>TBD</p>
-      </section-->
-    <div class="waxStack-header9">
-      <div class="waxStack-background9"></div>
-      <div class="waxStack-foreground9"></div>
-      <h1 class="waxStack-title9">1966-1969</h1>
+    <div class="waxStack-header2">
+      <div class="waxStack-background2"></div>
+      <div class="waxStack-foreground2"></div>
+      <h1 class="waxStack-title2">1966-1969</h1>
     </div>
-    <section class="waxStack-content9">
+    <section class="waxStack-content2">
       <ul>
         <li>Pet Sounds - May 16, 1966</li>
         <li>Heroes And Villains / You're Welcome - July 24, 1967</li>
@@ -104,13 +48,5 @@ title: Wax Stack
         <li>Break Away / Celebrate The News</li>
       </ul>
     </section>
-    <!--div class="waxStack-header10">
-        <div class="waxStack-background10"></div>
-        <div class="waxStack-foreground10"></div>
-        <h1 class="waxStack-title10">1969</h1>
-      </div>
-      <section class="waxStack-content10">
-        <p>TBD</p>
-      </section-->
   </div>
 </body>
