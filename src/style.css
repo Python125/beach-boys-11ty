@@ -390,6 +390,15 @@ body {
   perspective: 10px;
 }
 
+.waxStack-word {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-bottom: -1%;
+}
+
 .waxStack-header1 {
   position: relative;
   display: flex;
@@ -441,15 +450,6 @@ body {
   margin-bottom: 17%;
 }
 
-.waxStack-def {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  text-shadow: 0 0 15px black;
-  margin-bottom: -1.5%;
-}
-
 p {
   font-size: 30px;
   text-align: center;
@@ -465,6 +465,79 @@ p {
   height: 50%;
   background-color: #333;
   color: white;
+}
+
+@media (max-width: 767px) {
+  .waxStack-word {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 30px black;
+    margin-bottom: -4%;
+  }
+
+  p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 30px black;
+    margin-bottom: -34%;
+  }
+
+  .waxStack-header1 {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-top: 6%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+
+  .waxStack-background1 {
+    background-image: url("/images/beach-sunshine.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 38%;
+    transform: translateZ(-10px) scale(2);
+    transform-style: preserve-3d;
+  }
+
+  .waxStack-foreground1 {
+    background-image: url("/images/safari.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    top: 0;
+    left: 0;
+    transform: translateZ(-5px) scale(1.5);
+    transform-style: preserve-3d;
+  }
+
+  .waxStack-background1,
+  .waxStack-foreground1 {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .waxStack-title1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 15px black;
+    margin-bottom: 107%;
+  }
+  .waxStack-content1 {
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 15%;
+    height: 60%;
+    background-color: #333;
+    color: white;
+  }
 }
 
 .waxStack-header2 {
@@ -511,7 +584,7 @@ p {
 
 .waxStack-title2 {
   font-size: 70px;
-  margin-top: 20%;
+  margin-top: -1%;
   text-align: center;
   color: white;
   text-shadow: 0 0 15px black;
@@ -526,135 +599,194 @@ p {
   color: white;
 }
 
-/* Snapsicles Page */
+@media (max-width: 767px) {
+  .waxStack-header2 {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-top: 6%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
 
-.snapsicles-body {
-  margin: 0;
-  background-color: black;
-  color: white;
-  overflow: hidden;
-  text-align: center;
-}
+  .waxStack-background2 {
+    background-image: url("/images/studio-empty.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateZ(-10px) scale(2);
+    transform-style: preserve-3d;
+  }
 
-.snapsicles-wrapper1 {
-  height: 85vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  perspective: 10px;
-}
+  .waxStack-foreground2 {
+    background-image: url("/images/stack-o-tracks.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    top: 0;
+    left: 0;
+    transform: translateZ(-5px) scale(1.5);
+    transform-style: preserve-3d;
+  }
 
-.title2 {
-  font-size: 40px;
-  margin-bottom: 5%;
-  text-align: center;
-}
+  .waxStack-background2,
+  .waxStack-foreground2 {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
 
-.snapsicles-header1 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
-}
+  .waxStack-title2 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 15px black;
+    margin-bottom: 60%;
+  }
 
-.snapsicles-background1 {
-  background-image: url("/images/parking-lot.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateZ(-10px) scale(2);
-  transform-style: preserve-3d;
-}
+  .waxStack-content2 {
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 15%;
+    height: 30%;
+    background-color: #333;
+    color: white;
+  }
 
-.snapsicles-foreground1 {
-  background-image: url("/images/shut-down2.png");
-  background-size: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  transform: translateZ(-5px) scale(1.5);
-  transform-style: preserve-3d;
-}
+  /* Snapsicles Page */
 
-.snapsicles-background1,
-.snapsicles-foreground1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+  .snapsicles-body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+  }
 
-.snapsicles-title1 {
-  font-size: 7rem;
-  color: white;
-  text-shadow: 0 0 5px black;
-}
+  .snapsicles-wrapper1 {
+    height: 85vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    perspective: 10px;
+  }
 
-.snapsicles-section1 {
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: #333;
-  color: white;
-}
+  .title2 {
+    font-size: 40px;
+    margin-bottom: 5%;
+    text-align: center;
+  }
 
-.snapsicles-header2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
-}
+  .snapsicles-header1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
 
-.snapsicles-background2 {
-  background-image: url("/images/");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateZ(-10px) scale(2);
-  transform-style: preserve-3d;
-}
+  .snapsicles-background1 {
+    background-image: url("/images/parking-lot.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateZ(-10px) scale(2);
+    transform-style: preserve-3d;
+  }
 
-.snapsicles-foreground2 {
-  background-image: url("/images/");
-  background-size: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  transform: translateZ(-5px) scale(1.5);
-  transform-style: preserve-3d;
-}
+  .snapsicles-foreground1 {
+    background-image: url("/images/shut-down2.png");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    transform: translateZ(-5px) scale(1.5);
+    transform-style: preserve-3d;
+  }
 
-.snapsicles-background2,
-.snapsicles-foreground2 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+  .snapsicles-background1,
+  .snapsicles-foreground1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
 
-.snapsicles-title2 {
-  font-size: 7rem;
-  color: white;
-  text-shadow: 0 0 5px black;
-}
+  .snapsicles-title1 {
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+  }
 
-.snapsicles-section2 {
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: #333;
-  color: white;
+  .snapsicles-section1 {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+  }
+
+  .snapsicles-header2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+
+  .snapsicles-background2 {
+    background-image: url("/images/");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateZ(-10px) scale(2);
+    transform-style: preserve-3d;
+  }
+
+  .snapsicles-foreground2 {
+    background-image: url("/images/");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    transform: translateZ(-5px) scale(1.5);
+    transform-style: preserve-3d;
+  }
+
+  .snapsicles-background2,
+  .snapsicles-foreground2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .snapsicles-title2 {
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+  }
+
+  .snapsicles-section2 {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+  }
+
+  @media (max-width: 767px) {
+  }
 }
