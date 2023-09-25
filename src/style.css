@@ -468,9 +468,9 @@ p {
 
 .waxStack-content1 {
   font-size: 1.5rem;
-  padding: 5%;
+  padding: 1%;
   margin-top: 15%;
-  height: 50%;
+  height: 95%;
   background-color: #333;
   text-align: center;
   color: white;
@@ -601,9 +601,9 @@ p {
 
 .waxStack-content2 {
   font-size: 1.5rem;
-  padding: 5rem;
+  padding: 1%;
   margin-top: 15%;
-  height: 38%;
+  height: 50%;
   background-color: #333;
   text-align: center;
   color: white;
@@ -666,7 +666,6 @@ p {
 }
 
 /* Snapsicles Page */
-
 .snapsicles-body {
   margin: 0;
   background-color: black;
