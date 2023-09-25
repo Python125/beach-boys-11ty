@@ -7,7 +7,6 @@ title: Snapsicles
     <header class="snapsicles-header1">
       <div class="snapsicles-background1"></div>
       <div class="snapsicles-foreground1"></div>
-      <h1 class="snapsicles-title1">1961-1965</h1>
     </header>
     <section class="snapsicles-section1">
       <h2>1961</h2>
@@ -24,9 +23,8 @@ title: Snapsicles
     <header class="snapsicles-header2">
       <div class="snapsicles-background2"></div>
       <div class="snapsicles-foreground2"></div>
-      <h1 class="snapsicles-title2">1966-1969</h1>
     </header>
-    <section class="snapsicles-section1">
+    <section class="snapsicles-section2">
       <h2>1966</h2>
       <img class="snap-images" src="/images/1966.jpg" width="700px" /><br />
       <h2>1967</h2>

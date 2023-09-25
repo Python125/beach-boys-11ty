@@ -45,7 +45,7 @@ title: Wax Stack
         <li>Wild Honey - December 18, 1967</li>
         <li>Friends - June 24, 1968</li>
         <li>20/20 - February 10, 1969</li>
-        <li>Break Away / Celebrate The News</li>
+        <li>Break Away / Celebrate The News - June 16, 1969</li>
       </ul>
     </section>
   </div>
