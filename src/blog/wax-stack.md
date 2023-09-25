@@ -12,21 +12,20 @@ title: Wax Stack
       <h1 class="waxStack-title1">1961-1965</h1>
     </div>
     <section class="waxStack-content1">
-      Surfin' / Luau - November 1961<br />
-      Surfin' Safari - October 1, 1962<br />
-      Surfin' U.S.A. - March 25, 1963<br />
-      Surfer Girl - September 16, 1963<br />
-      Little Deuce Coupe - October 7, 1963<br />
-      Be True To Your School / In My Room - October 28, 1963<br />
-      Shut Down Volume 2 - March 2, 1964<br />
-      All Summer Long - July 13, 1964<br />
-      Beach Boys Concert - October 19, 1964<br />
-      The Beach Boys' Christmas Album - November 9, 1964<br />
-      The Beach Boys Today! - March 8, 1965<br />
-      Summer Days (And Summer Nights!!) - July 5, 1965<br />
-      Beach Boys' Party! - November 8, 1965<br />
-      The Little Girl I Once Knew / There's No Other (Like My Baby) - November
-      22, 1965
+      <div class="waxStack-text1">Surfin' / Luau - November 1961</div><br>
+      <div class="waxStack-text2">Surfin' Safari - October 1, 1962</div><br>
+      <div class="waxStack-text1">Surfin' U.S.A. - March 25, 1963</div><br>
+      <div class="waxStack-text2">Surfer Girl - September 16, 1963</div><br>
+      <div class="waxStack-text1">Little Deuce Coupe - October 7, 1963</div><br>
+      <div class="waxStack-text2">Be True To Your School / In My Room - October 28, 1963</div><br>
+      <div class="waxStack-text1">Shut Down Volume 2 - March 2, 1964</div><br>
+      <div class="waxStack-text2">All Summer Long - July 13, 1964</div><br>
+      <div class="waxStack-text1">Beach Boys Concert - October 19, 1964</div><br>
+      <div class="waxStack-text2">The Beach Boys' Christmas Album - November 9, 1964</div><br>
+      <div class="waxStack-text1">The Beach Boys Today! - March 8, 1965</div><br>
+      <div class="waxStack-text2">Summer Days (And Summer Nights!!) - July 5, 1965</div><br>
+      <div class="waxStack-text1">Beach Boys' Party! - November 8, 1965</div><br>
+      <div class="waxStack-text2">The Little Girl I Once Knew / There's No Other (Like My Baby) - November 22, 1965</div><br>
     </section>
     <div class="waxStack-header2">
       <div class="waxStack-background2"></div>
@@ -34,13 +33,13 @@ title: Wax Stack
       <h1 class="waxStack-title2">1966-1969</h1>
     </div>
     <section class="waxStack-content2">
-      Pet Sounds - May 16, 1966<br />
-      Heroes And Villains / You're Welcome - July 24, 1967<br />
-      Smiley Smile - September 18, 1967<br />
-      Wild Honey - December 18, 1967<br />
-      Friends - June 24, 1968<br />
-      20/20 - February 10, 1969<br />
-      Break Away / Celebrate The News - June 16, 1969<br />
+      <div class="waxStack-text1">Pet Sounds - May 16, 1966</div><br>
+      <div class="waxStack-text2">Heroes And Villains / You're Welcome - July 24, 1967</div><br>
+      <div class="waxStack-text1">Smiley Smile - September 18, 1967</div><br>
+      <div class="waxStack-text2">Wild Honey - December 18, 1967</div><br>
+      <div class="waxStack-text1">Friends - June 24, 1968</div><br>
+      <div class="waxStack-text2">20/20 - February 10, 1969</div><br>
+      <div class="waxStack-text1">Break Away / Celebrate The News - June 16, 1969</div>
     </section>
     <a class="home-link" href="/">GOOD VIBRATIONS CENTRAL</a>
     <a class="snap-link" href="/blog/snapsicles/">SNAPSICLES</a>
