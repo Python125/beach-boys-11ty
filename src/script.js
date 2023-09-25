@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
   const blogText1 = document.querySelector(".blog-text1");
 
   blogText1.style.opacity = "0";
-  blogText1.style.transform = "translateY(90000vh)";
+  blogText1.style.transform = "translateY(100000vh)";
 
   setTimeout(() => {
     blogText1.style.opacity = "1";
