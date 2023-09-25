@@ -40,14 +40,14 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogImage.style.opacity = "1";
     blogImage.style.transform = "translateX(0)";
-  }, 108);
+  }, 100);
 });
 
 window.addEventListener("load", () => {
   const blogText1 = document.querySelector(".blog-text1");
 
   blogText1.style.opacity = "0";
-  blogText1.style.transform = "translateY(100000vh)";
+  blogText1.style.transform = "translateY(10000vh)";
 
   setTimeout(() => {
     blogText1.style.opacity = "1";
@@ -59,7 +59,7 @@ window.addEventListener("load", () => {
   const blogText2 = document.querySelector(".blog-text2");
 
   blogText2.style.opacity = "0";
-  blogText2.style.transform = "translateY(90000vh)";
+  blogText2.style.transform = "translateY(10000vh)";
 
   setTimeout(() => {
     blogText2.style.opacity = "1";
