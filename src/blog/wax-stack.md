@@ -2,7 +2,7 @@
 title: Wax Stack
 ---
 
-<body>
+<body class="waxStack-body">
   <div class="waxStack-container">
     <h1 class="waxStack-word">wax stack [n] .</h1>
     <p>Sixties DJ slang; a collection of vinyl records selected for airplay.</p>
@@ -40,7 +40,9 @@ title: Wax Stack
       Wild Honey - December 18, 1967<br />
       Friends - June 24, 1968<br />
       20/20 - February 10, 1969<br />
-      Break Away / Celebrate The News - June 16, 1969
+      Break Away / Celebrate The News - June 16, 1969<br />
     </section>
+    <a class="home-link" href="/">GOOD VIBRATIONS CENTRAL</a>
+    <a class="snap-link" href="/blog/snapsicles/">SNAPSICLES</a>
   </div>
 </body>

@@ -383,6 +383,14 @@ body {
 }
 
 /* Wax Stack */
+.waxStack-body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
 .waxStack-container {
   height: 85vh;
   overflow-y: scroll;
@@ -921,4 +929,46 @@ p {
   .snap-images {
     width: 100%;
   }
+}
+
+.home-link {
+  color: white;
+  margin-top: 0.9%;
+  margin-left: 2.5%;
+  font-size: 20.5px;
+  font-family: "Figtree", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+.snap-link {
+  color: white;
+  margin-top: 0.9%;
+  margin-left: 2.5%;
+  font-size: 20.5px;
+  font-family: "Figtree", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.snap-link:hover {
+  text-decoration: underline;
+}
+
+.waxStack-link {
+  color: white;
+  margin-top: 0.9%;
+  margin-left: 2.5%;
+  font-size: 20.5px;
+  font-family: "Figtree", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.waxStack-link:hover {
+  text-decoration: underline;
 }

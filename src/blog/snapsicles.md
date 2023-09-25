@@ -34,5 +34,7 @@ title: Snapsicles
       <h2>1969</h2>
       <img class="snap-images" src="/images/1969.jpg" width="700px" /><br />
     </section>
+    <a class="home-link" href="/">GOOD VIBRATIONS CENTRAL</a>
+    <a class="waxStack-link" href="/blog/wax-stack/">WAX STACK</a>
   </div>
 </body>
