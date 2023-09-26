@@ -458,7 +458,7 @@ body {
   margin-bottom: 17%;
 }
 
-p {
+.waxStack-def {
   font-size: 30px;
   text-align: center;
   color: white;
@@ -474,6 +474,15 @@ p {
   background-color: #333;
   text-align: center;
   color: white;
+}
+
+.waxStack-text1 {
+  font-size: 1.5rem;
+}
+
+
+.waxStack-text2 {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 767px) {
