@@ -52,7 +52,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText1.style.opacity = "1";
     blogText1.style.transform = "translateY(0)";
-  }, 150);
+  }, 160);
 });
 
 window.addEventListener("load", () => {
@@ -64,5 +64,5 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText2.style.opacity = "1";
     blogText2.style.transform = "translateY(0)";
-  }, 250);
+  }, 240);
 });
