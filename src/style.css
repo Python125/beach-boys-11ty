@@ -696,7 +696,7 @@ body {
 }
 
 .snapsicles-word {
-  font-size: 40px;
+  font-size: 29.5px;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -705,8 +705,11 @@ body {
 }
 
 .snapsicles-def {
-  margin-bottom: -4%;
   font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 30px black;
+  margin-bottom: -9%;
 }
 
 .snapsicles-header1 {
