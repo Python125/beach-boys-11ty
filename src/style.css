@@ -311,13 +311,24 @@ body {
   color: white;
 }
 
-.waxStack-text1 {
+.waxStack-text {
   font-size: 1.5rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  /*transform: translateX(400%);*/
+  /*transition: transform 0.4s ease;*/
 }
 
-.waxStack-text2 {
-  font-size: 1.5rem;
+/*
+.waxStack-text:nth-of-type(even) {
+  transform: translateX(-400%);
 }
+
+.waxStack-text.show {
+  transform: translateX(0);
+}
+*/
 
 @media (max-width: 767px) {
   .waxStack-word {

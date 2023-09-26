@@ -60,9 +60,31 @@ window.addEventListener("load", () => {
 
   blogText2.style.opacity = "0";
   blogText2.style.transform = "translateY(10000vh)";
- 
+
   setTimeout(() => {
     blogText2.style.opacity = "1";
     blogText2.style.transform = "translateY(0)";
   }, 250);
 });
+
+/*
+const texts = document.querySelectorAll(".waxStack-text");
+
+window.addEventListener("scroll", checkTexts);
+
+checkTexts();
+
+function checkTexts() {
+  const triggerBottom = (window.innerHeight / 5) * 4;
+
+  texts.forEach((text) => {
+    const textTop = text.getBoundingClientRect().top;
+
+    if (textTop < triggerBottom) {
+      text.classList.add("show");
+    } else {
+      box.classList.remove("show");
+    }
+  });
+}
+*/
