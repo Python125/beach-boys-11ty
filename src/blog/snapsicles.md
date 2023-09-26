@@ -4,6 +4,8 @@ title: Snapsicles
 
 <body class="snapsicles-body">
   <div class="snapsicles-wrapper1">
+    <h1 class="snapsicles-word">snapsicles [n] .</h1>
+    <p class="snapsicles-def">Sixties slang for pictures</p>
     <header class="snapsicles-header1">
       <div class="snapsicles-background1"></div>
       <div class="snapsicles-foreground1"></div>
