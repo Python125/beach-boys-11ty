@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogImage.style.opacity = "1";
     blogImage.style.transform = "translateX(0)";
-  }, 100);
+  }, 250);
 });
 
 window.addEventListener("load", () => {
@@ -52,7 +52,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     blogText1.style.opacity = "1";
     blogText1.style.transform = "translateY(0)";
-  }, 300);
+  }, 150);
 });
 
 window.addEventListener("load", () => {
@@ -60,9 +60,9 @@ window.addEventListener("load", () => {
 
   blogText2.style.opacity = "0";
   blogText2.style.transform = "translateY(10000vh)";
-
+ 
   setTimeout(() => {
     blogText2.style.opacity = "1";
     blogText2.style.transform = "translateY(0)";
-  }, 500);
+  }, 250);
 });
