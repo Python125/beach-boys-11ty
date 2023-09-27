@@ -67,19 +67,20 @@ window.addEventListener("load", () => {
   }, 250);
 });
 
-const texts = document.querySelectorAll(".waxStack-text");
+const boxes = document.querySelectorAll(".box");
 
-window.addEventListener("scroll", checkTexts);
-checkTexts();
+window.addEventListener("scroll", checkBoxes);
 
-function checkTexts() {
+checkBoxes();
+
+function checkBoxes() {
   const triggerBottom = (window.innerHeight / 5) * 4;
 
-  texts.forEach((text) => {
-    const textTop = text.getBoundingClientRect().top;
+  boxes.forEach((box) => {
+    const boxTop = box.getBoundingClientRect().top;
 
-    if (textTop < triggerBottom) {
-      text.classList.add("show");
+    if (boxTop < triggerBottom) {
+      box.classList.add("show");
     } else {
       box.classList.remove("show");
     }
