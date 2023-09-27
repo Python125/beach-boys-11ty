@@ -67,11 +67,9 @@ window.addEventListener("load", () => {
   }, 250);
 });
 
-/*
 const texts = document.querySelectorAll(".waxStack-text");
 
 window.addEventListener("scroll", checkTexts);
-
 checkTexts();
 
 function checkTexts() {
@@ -87,4 +85,3 @@ function checkTexts() {
     }
   });
 }
-*/
