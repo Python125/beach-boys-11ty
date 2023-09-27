@@ -316,33 +316,6 @@ body {
   text-align: center;
 }
 
-.box {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  height: 200px;
-  margin: 10px;
-  border-radius: 20px;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
-  transform: translateX(400%);
-  transition: transform 0.4s ease;
-}
-
-.box:nth-of-type(even) {
-  transform: translateX(-400%);
-}
-
-.box.show {
-  transform: translateX(0);
-}
-
-.box p {
-  font-size: 25px;
-  text-shadow: 2px 2px 3px black;
-}
-
 @media (max-width: 767px) {
   .waxStack-word {
     font-size: 30px;
@@ -839,5 +812,19 @@ body {
 }
 
 .snap-link:hover {
+  text-decoration: underline;
+}
+
+.waxStack-link {
+  color: white;
+  margin-top: 0.9%;
+  margin-left: 2.5%;
+  font-size: 20.5px;
+  font-family: "Figtree", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.waxStack-link:hover {
   text-decoration: underline;
 }
